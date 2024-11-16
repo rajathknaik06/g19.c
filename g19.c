@@ -29,7 +29,7 @@ The output displays a double value representing the total cost calculated based 
 int main() {
     int miles,gas,parking,tolls;
     double average_miles;
-    scanf("%d%d%lf%d%d",&miles,&gas,&average_miles,&parking,&tolls);
+    scanf("%d%d%lf%d%d",&miles,&gas,&average_miles,&parking,&tolls);          //miles means in day    avg  miles means vechiles gives mile per litre
     double res = (miles/average_miles)*gas+parking+tolls;             //1 50 5.0 10 50 
     printf("%.2lf",res);
     return 0;
